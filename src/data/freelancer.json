@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "names": "Freddy Kaberuka",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"Kigali",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/Freddy-Kaberuka.jpg"
+  },
+
+  {
+    "id": 1,
+    "names": "Kaberuka F",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"NewYork",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/Kaberuka-F.jpg"
+  },
+
+  {
+    "id": 1,
+    "names": "Frank Do",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"Texas",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/Frank-Do.jpg"
+  },
+
+  {
+    "id": 1,
+    "names": "Freddrick Doon",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"England",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/Freddrick-Doon.jpg"
+  },
+
+  {
+    "id": 1,
+    "names": "trojan Dany",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"Denmark",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/Trojan-Dany.jpg"
+  },
+  {
+    "id": 1,
+    "names": "John Doe",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"Kigali",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/John-Doe.jpg"
+  },
+  {
+    "id": 1,
+    "names": "Kaberuka B",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"Rwanda",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/Kaberuka-B.jpg"
+  },
+  {
+    "id": 1,
+    "names": "Freddy K",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/Freddy-K.jpg"
+  },
+  {
+    "id": 1,
+    "names": "John Rwanda",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"Kigali",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/John-Rwanda.jpg"
+  },
+  {
+    "id": 1,
+    "names": "Rwanda Nziza",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"Kicukiro",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/Rwanda-Nziza.jpg"
+  },
+  {
+    "id": 1,
+    "names": "Joseph tester",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"Kigali",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/Joseph-Tester.jpg"},
+  {
+    "id": 1,
+    "names": "Marie D.",
+    "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
+    "location":"califonia",
+    "category":"web development",
+    "technologies":[
+        "react",
+        "typescript",
+        "javascript",
+        "nodejs"
+  ],
+  "image": "https://example.com/marie-D.jpg"}
+  
+]
