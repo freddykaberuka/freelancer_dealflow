@@ -8,6 +8,7 @@ interface Freelancer {
   category: string;
   technologies: string[];
   image: string;
+  years_experience: string;
 }
 
 interface FreelancerListProps {
@@ -18,18 +19,19 @@ const FreelancerList: React.FC<FreelancerListProps> = ({ freelancers }) => {
   const [filter, setFilter] = useState('');
 
   const filteredFreelancers = freelancers.filter((freelancer) =>
-    freelancer.names.toLowerCase().includes(filter.toLowerCase())
+    freelancer.names.toLowerCase().includes(filter) ||
+    String(freelancer.years_experience).toLowerCase().includes(filter)
   );
-
-  const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setFilter(event.target.value);
+const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const inputValue = event.target.value.toLowerCase();
+    setFilter(inputValue);
   };
 
   return (
     <div>
       <h2>Freelancer List</h2>
       <div>
-        <label htmlFor="filter">Filter by Name:</label>
+        <label htmlFor="filter">Filter by Name or By Experience:</label>
         <input
           type="text"
           id="filter"
@@ -46,6 +48,7 @@ const FreelancerList: React.FC<FreelancerListProps> = ({ freelancers }) => {
               <p>Category: {freelancer.category}</p>
               <p>Technologies: {freelancer.technologies.join(', ')}</p>
               <img src={freelancer.image} alt={freelancer.names} />
+              <p>years_experience: {freelancer.years_experience}years</p>
           </li>
         ))}
       </ul>

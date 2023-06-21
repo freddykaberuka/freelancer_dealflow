@@ -11,11 +11,12 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/Freddy-Kaberuka.jpg"
+  "image": "https://example.com/Freddy-Kaberuka.jpg",
+  "years_experience": 5
   },
 
   {
-    "id": 1,
+    "id": 2,
     "names": "Kaberuka F",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "location":"NewYork",
@@ -26,11 +27,12 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/Kaberuka-F.jpg"
+  "image": "https://example.com/Kaberuka-F.jpg",
+  "years_experience": 6
   },
 
   {
-    "id": 1,
+    "id": 3,
     "names": "Frank Do",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "location":"Texas",
@@ -41,11 +43,12 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/Frank-Do.jpg"
+  "image": "https://example.com/Frank-Do.jpg",
+  "years_experience": 1
   },
 
   {
-    "id": 1,
+    "id": 4,
     "names": "Freddrick Doon",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "location":"England",
@@ -56,11 +59,12 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/Freddrick-Doon.jpg"
+  "image": "https://example.com/Freddrick-Doon.jpg",
+  "years_experience": 3
   },
 
   {
-    "id": 1,
+    "id": 5,
     "names": "trojan Dany",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "location":"Denmark",
@@ -71,10 +75,11 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/Trojan-Dany.jpg"
+  "image": "https://example.com/Trojan-Dany.jpg",
+  "years_experience": 2
   },
   {
-    "id": 1,
+    "id": 6,
     "names": "John Doe",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "location":"Kigali",
@@ -85,10 +90,11 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/John-Doe.jpg"
+  "image": "https://example.com/John-Doe.jpg",
+  "years_experience": 5
   },
   {
-    "id": 1,
+    "id": 7,
     "names": "Kaberuka B",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "location":"Rwanda",
@@ -99,10 +105,11 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/Kaberuka-B.jpg"
+  "image": "https://example.com/Kaberuka-B.jpg",
+  "years_experience": 10
   },
   {
-    "id": 1,
+    "id": 8,
     "names": "Freddy K",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "category":"web development",
@@ -112,10 +119,11 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/Freddy-K.jpg"
+  "image": "https://example.com/Freddy-K.jpg",
+  "years_experience": 15
   },
   {
-    "id": 1,
+    "id": 9,
     "names": "John Rwanda",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "location":"Kigali",
@@ -126,10 +134,11 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/John-Rwanda.jpg"
+  "image": "https://example.com/John-Rwanda.jpg",
+  "years_experience": 20
   },
   {
-    "id": 1,
+    "id": 10,
     "names": "Rwanda Nziza",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "location":"Kicukiro",
@@ -140,10 +149,11 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/Rwanda-Nziza.jpg"
+  "image": "https://example.com/Rwanda-Nziza.jpg",
+  "years_experience": 17
   },
   {
-    "id": 1,
+    "id": 11,
     "names": "Joseph tester",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "location":"Kigali",
@@ -154,9 +164,11 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/Joseph-Tester.jpg"},
+  "image": "https://example.com/Joseph-Tester.jpg",
+  "years_experience": 7
+  },
   {
-    "id": 1,
+    "id": 12,
     "names": "Marie D.",
     "about":"consectetur adipiscing elit. Donec dapibus, orci et dignissim maximus, purus ligula tincidunt nibh, in consequat felis justo sit amet nisi. Nulla ultricies, libero in placerat fringilla, ante ipsum elementum turpis, scelerisque convallis tortor mauris nec risus. Integer eu ultricies massa,",
     "location":"califonia",
@@ -167,6 +179,8 @@
         "javascript",
         "nodejs"
   ],
-  "image": "https://example.com/marie-D.jpg"}
+  "image": "https://example.com/marie-D.jpg",
+  "years_experience": 13
+  }
   
 ]
