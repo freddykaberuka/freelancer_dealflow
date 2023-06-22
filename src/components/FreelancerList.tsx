@@ -1,21 +1,9 @@
 import React, {useState} from 'react';
 import profile from '../assets/person-icon.jpeg'
 import locate from '../assets/locates.png'
+import { Freelancer, FreelancerListProps } from '../types/freelancerTypes'
+import Search from './Search';
 
-interface Freelancer {
-  id: number;
-  names: string;
-  about: string;
-  location: string;
-  category: string;
-  technologies: string[];
-  image: string;
-  years_experience: number;
-}
-
-interface FreelancerListProps {
-  freelancers: Freelancer[];
-}
 
 const FreelancerList: React.FC<FreelancerListProps> = ({ freelancers }) => {
   const [filter, setFilter] = useState('');
