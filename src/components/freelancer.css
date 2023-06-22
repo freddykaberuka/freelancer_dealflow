@@ -85,6 +85,7 @@ a{
     border-radius: 10px;
     text-align: center;
     width: 200px;
+    cursor: pointer;
 }
 .profile-description{
     display: grid;
@@ -125,4 +126,9 @@ a{
     background-color: #c8c2c2;
     margin-right: 4px;
     border-radius: 20px;
+}
+.pagination{
+    float: right;
+    margin: 0 30px;
+    padding: 0 20px;
 }

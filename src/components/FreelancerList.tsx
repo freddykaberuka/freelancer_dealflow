@@ -19,6 +19,8 @@ interface FreelancerListProps {
 
 const FreelancerList: React.FC<FreelancerListProps> = ({ freelancers }) => {
   const [filter, setFilter] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 5; 
 
   const filteredFreelancers = freelancers.filter((freelancer) =>
     freelancer.names.toLowerCase().includes(filter) ||
@@ -27,6 +29,16 @@ const FreelancerList: React.FC<FreelancerListProps> = ({ freelancers }) => {
 const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const inputValue = event.target.value.toLowerCase();
     setFilter(inputValue);
+    setCurrentPage(1); 
+  };
+
+  const totalPages = Math.ceil(filteredFreelancers.length / itemsPerPage);
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentFreelancers = filteredFreelancers.slice(indexOfFirstItem, indexOfLastItem);
+
+  const handlePageChange = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
   };
 
   return (
@@ -44,7 +56,7 @@ const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement>) => {
       </div>
       </div>
       <div className='freelancer-container'>
-          {filteredFreelancers.map((freelancer) => (
+          {currentFreelancers.map((freelancer) => (
             <div className='freelancer-list' key={freelancer.id}>
               <div className='profile'>
                 <img src={profile} alt={freelancer.names} />
@@ -63,6 +75,17 @@ const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement>) => {
               </div>
             </div>
           </div>
+        ))}
+      </div>
+      <div className="pagination">
+        {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
+          <button
+            key={page}
+            className={currentPage === page ? 'active' : ''}
+            onClick={() => handlePageChange(page)}
+          >
+            {page}
+          </button>
         ))}
       </div>
     </div>
