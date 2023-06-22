@@ -25,3 +25,5 @@ Building for production.
 ``
 npm run build
 ``
+## Hosted demo
+[dealflow app Link](https://dealflowfreelancer.netlify.app/)
