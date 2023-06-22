@@ -6,8 +6,8 @@
     "location":"Kigali",
     "category":"web development",
     "technologies":[
-        "react",
-        "typescript",
+        "Java",
+        "Python",
         "javascript",
         "nodejs"
   ],
@@ -100,9 +100,9 @@
     "location":"Rwanda",
     "category":"web development",
     "technologies":[
-        "react",
-        "typescript",
-        "javascript",
+        "Vue",
+        "Angular",
+        "Java",
         "nodejs"
   ],
   "image": "https://example.com/Kaberuka-B.jpg",
@@ -129,8 +129,8 @@
     "location":"Kigali",
     "category":"web development",
     "technologies":[
-        "react",
-        "typescript",
+        "Nuxt",
+        "Nest",
         "javascript",
         "nodejs"
   ],
@@ -144,10 +144,10 @@
     "location":"Kicukiro",
     "category":"web development",
     "technologies":[
-        "react",
-        "typescript",
-        "javascript",
-        "nodejs"
+        "NodeJs",
+        "Angular",
+        "Vue",
+        "NextJs"
   ],
   "image": "https://example.com/Rwanda-Nziza.jpg",
   "years_experience": 17
@@ -159,10 +159,10 @@
     "location":"Kigali",
     "category":"web development",
     "technologies":[
-        "react",
-        "typescript",
-        "javascript",
-        "nodejs"
+        "ReactJs",
+        "C++",
+        "C",
+        "Java"
   ],
   "image": "https://example.com/Joseph-Tester.jpg",
   "years_experience": 7
@@ -174,10 +174,10 @@
     "location":"califonia",
     "category":"web development",
     "technologies":[
-        "react",
-        "typescript",
-        "javascript",
-        "nodejs"
+        "Django",
+        "Typescript",
+        "React",
+        "R"
   ],
   "image": "https://example.com/marie-D.jpg",
   "years_experience": 13

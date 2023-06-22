@@ -7,9 +7,12 @@ html,body{
     display: flex;
     justify-content: space-between;
     background-color: gray;
-    padding: 16px 20px;
+    padding: 16px;
     font-weight: bold;
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    margin: 0 30px 30px 0;
 }
 .header{
     font-size: 32px;
@@ -29,6 +32,11 @@ html,body{
 }
 .navLink ul button{
     padding: 6px;
+    background-color: rgba(213,122,212,255);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
@@ -42,8 +50,8 @@ a{
 .topHeader {
     display: flex;
     justify-content: space-between;
-    margin: 0 20px;
-    padding: 0 30px;
+    margin: 40px 20px;
+    padding: 50px 30px;
 }
 .search{
     margin: 20px 0;
@@ -78,7 +86,7 @@ a{
 }
 
 .profile button{
-    background-color: rgb(7, 7, 231);
+    background-color: rgba(46,151,241,255);
     color: #fff;
     padding: 10px;
     border: 0;
@@ -128,7 +136,19 @@ a{
     border-radius: 20px;
 }
 .pagination{
-    float: right;
-    margin: 0 30px;
-    padding: 0 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+footer{
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(34,34,34,255);
+    margin: 0;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+}
+footer img{
+    width: 250px;
 }
