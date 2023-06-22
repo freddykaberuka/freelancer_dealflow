@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import profile from '../assets/person-icon.jpeg'
+import locate from '../assets/locates.png'
 
 interface Freelancer {
   id: number;
@@ -8,7 +10,7 @@ interface Freelancer {
   category: string;
   technologies: string[];
   image: string;
-  years_experience: string;
+  years_experience: number;
 }
 
 interface FreelancerListProps {
@@ -45,13 +47,13 @@ const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement>) => {
           {filteredFreelancers.map((freelancer) => (
             <div className='freelancer-list' key={freelancer.id}>
               <div className='profile'>
-                <img src={freelancer.image} alt={freelancer.names} />
+                <img src={profile} alt={freelancer.names} />
                 <button>View {freelancer.names}</button>
               </div>
               <div className='profile-description'>
                 <div className='profile-name'>{freelancer.names}</div>
                 <div className='profile-category'>{freelancer.category}</div>
-                <div className='profile-location'>{freelancer.location}</div>
+                <div className='profile-location'><img src={locate} />{freelancer.location}</div>
                 <div className='profile-experience'>  {freelancer.years_experience} years_experience</div>
                 <div className='profile-about'>{freelancer.about}</div>
                 <div className='profile-technology'>

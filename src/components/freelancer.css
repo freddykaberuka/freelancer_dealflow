@@ -30,6 +30,10 @@ html,body{
 .navLink ul button{
     padding: 6px;
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
 
 .container {
     padding: 20px;
@@ -61,7 +65,16 @@ html,body{
     margin: 20px;
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
 
+.profile{
+    text-align: center;
+    margin-right: 10px;
+}
+.profile img{
+    width: 200px;
+    border-radius: 10px;
 }
 
 .profile button{
@@ -70,7 +83,8 @@ html,body{
     padding: 10px;
     border: 0;
     border-radius: 10px;
-
+    text-align: center;
+    width: 200px;
 }
 .profile-description{
     display: grid;
@@ -88,12 +102,17 @@ html,body{
     font-size: 14px;
     padding-bottom: 12px;
 }
+.profile-location img{
+    width: 16px;
+    padding-top: 8px;
+}
 .profile-experience{
     border: 0 solid gray;
     background-color: #ded6d6;
     border-radius: 20px;
     width: 140px;
     padding: 1px;
+    text-align: center;
 }
 .profile-about{
     padding-top: 10px;

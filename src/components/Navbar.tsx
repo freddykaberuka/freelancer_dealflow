@@ -9,8 +9,8 @@ export default function Navbar({}: Props) {
         <div className='header'><img src={logo}/></div>
         <div className='navLink'>
             <ul>
-                <button>Hire a Developer</button>
-                <li>Login</li>
+                <button><a href='#'>Hire a Developer</a></button>
+                <li><a href='#'>Login</a></li>
             </ul>
         </div>
     </div>
