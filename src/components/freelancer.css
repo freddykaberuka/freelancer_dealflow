@@ -1,6 +1,7 @@
 html,body{
     padding: 0;
     margin: 0;
+    background-color: #f0ebeb;
 }
 .nav{
     display: flex;
@@ -8,10 +9,14 @@ html,body{
     background-color: gray;
     padding: 16px 20px;
     font-weight: bold;
+    background-color: #fff;
 }
 .header{
     font-size: 32px;
     padding-top: 12px;
+}
+.header img{
+    width: 200px;
 }
 .navLink ul{
     display: flex;
@@ -20,8 +25,85 @@ html,body{
     font-size: 16px;
 }
 .navLink ul li{
-    padding: 0 20px;
+    padding: 10px 20px;
 }
-.navLink ul li button{
+.navLink ul button{
     padding: 6px;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 10px;
+}
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 0 30px;
+}
+.search{
+    margin: 20px 0;
+}
+.search input[type=text] {
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.freelancer-container{
+    margin: 20px;
+    padding: 20px;
+}
+.freelancer-list{
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.profile button{
+    background-color: rgb(7, 7, 231);
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+
+}
+.profile-description{
+    display: grid;
+}
+.profile-name{
+    font-weight: bold;
+    font-size: 17px;
+}
+.profile-category{
+    color: #9b9898;
+    padding: 6px 0;
+}
+.profile-location{
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+.profile-experience{
+    border: 0 solid gray;
+    background-color: #ded6d6;
+    border-radius: 20px;
+    width: 140px;
+    padding: 1px;
+}
+.profile-about{
+    padding-top: 10px;
+}
+.profile-technology{
+    padding-top: 20px; 
+}
+.technology{
+    padding: 0 8px;
+    background-color: #c8c2c2;
+    margin-right: 4px;
+    border-radius: 20px;
 }

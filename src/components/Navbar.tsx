@@ -1,14 +1,15 @@
 import React from 'react'
+import logo from '../assets/logo.png'
 
 type Props = {}
 
 export default function Navbar({}: Props) {
   return (
     <div className='nav'>
-        <div className='header'>Logo</div>
+        <div className='header'><img src={logo}/></div>
         <div className='navLink'>
             <ul>
-                <li><button>Hire a Developer</button></li>
+                <button>Hire a Developer</button>
                 <li>Login</li>
             </ul>
         </div>

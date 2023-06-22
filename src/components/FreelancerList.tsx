@@ -28,30 +28,41 @@ const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement>) => {
   };
 
   return (
-    <div>
-      <h2>Freelancer List</h2>
-      <div>
-        <label htmlFor="filter">Filter by Name or By Experience:</label>
+    <div className='container'>
+      <div className='topHeader'>
+      <h2>Find a Freelancer with us</h2>
+      <div className='search'>
         <input
           type="text"
           id="filter"
           value={filter}
           onChange={handleFilterChange}
+          placeholder="Search..."
         />
       </div>
-      <ul>
+      </div>
+      <div className='freelancer-container'>
           {filteredFreelancers.map((freelancer) => (
-            <li key={freelancer.id}>
-              <p>Name: {freelancer.names}</p>
-              <p>About: {freelancer.about}</p>
-              <p>Location: {freelancer.location}</p>
-              <p>Category: {freelancer.category}</p>
-              <p>Technologies: {freelancer.technologies.join(', ')}</p>
-              <img src={freelancer.image} alt={freelancer.names} />
-              <p>years_experience: {freelancer.years_experience}years</p>
-          </li>
+            <div className='freelancer-list' key={freelancer.id}>
+              <div className='profile'>
+                <img src={freelancer.image} alt={freelancer.names} />
+                <button>View {freelancer.names}</button>
+              </div>
+              <div className='profile-description'>
+                <div className='profile-name'>{freelancer.names}</div>
+                <div className='profile-category'>{freelancer.category}</div>
+                <div className='profile-location'>{freelancer.location}</div>
+                <div className='profile-experience'>  {freelancer.years_experience} years_experience</div>
+                <div className='profile-about'>{freelancer.about}</div>
+                <div className='profile-technology'>
+                  {freelancer.technologies.map((technology, index) => (
+                    <span key={index} className='technology'>{technology}</span>
+                  ))}
+              </div>
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
