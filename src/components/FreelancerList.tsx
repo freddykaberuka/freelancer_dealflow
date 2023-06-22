@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import profile from '../assets/person-icon.jpeg'
 import locate from '../assets/locates.png'
-import { Freelancer, FreelancerListProps } from '../types/freelancerTypes'
+import type FreelancerListProps from '../types/freelancerTypes'
 
 
 const FreelancerList: React.FC<FreelancerListProps> = ({ freelancers }) => {
