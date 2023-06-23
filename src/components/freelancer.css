@@ -44,8 +44,9 @@ a{
 }
 
 .container {
-    padding: 20px;
-    margin: 0 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 .topHeader {
     display: flex;
@@ -151,4 +152,84 @@ footer{
 }
 footer img{
     width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .topHeader {
+    flex-direction: column;
+    align-items: center;
+  }
+  .search input[type=text] {
+    width: 100%;
+  }
+  .freelancer-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  .profile img {
+    width: 150px;
+  }
+  .profile button {
+    display: none;
+  }
+  .profile-description {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.profile-category {
+  color: #9b9898;
+  padding: 6px 0;
+}
+
+.profile-location {
+  font-weight: normal;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.profile-location img {
+  width: 12px;
+  padding-top: 2px;
+  margin-right: 5px;
+}
+
+.profile-experience {
+  border: 0 solid gray;
+  background-color: #ded6d6;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 140px;
+  padding: 1px;
+  text-align: center;
+}
+
+.profile-about {
+  padding-top: 10px;
+}
+
+.profile-technology {
+  padding-top: 20px;
+}
+
+.technology {
+  padding: 0 6px;
+  background-color: #c8c2c2;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
 }
